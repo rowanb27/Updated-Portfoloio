@@ -18,6 +18,12 @@ $("#contact").on("click", function() {
     $("#contactContainer").show();
 });
 
+$("#portfolio").on("click", function() { 
+    $("#aboutMeContainer").hide();
+    $("#contactContainer").hide();
+    $("#portfolioContainer").show();
+});
+
 
 
 
